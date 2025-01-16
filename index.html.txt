@@ -1,0 +1,136 @@
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IsaacWatchlist</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to C.Y.B.E.R's Watchlist 🎥</h1>
+      <p>Discover the best films and recommendations, tailored just for you.</p>
+      <a href="#subscribe" class="cta-button">Join the List</a>
+    </section>
+
+    <section id="subscribe">
+      <!-- Include the subscription form code here -->
+    </section>
+  </main>
+
+  
+    
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - C.Y.B.E.R's Watchlist</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>About C.Y.B.E.R's Watchlist</h1>
+      <p>C.Y.B.E.R's Watchlist is your go-to platform for curated movie recommendations, reviews, and updates on upcoming releases.</p>
+    </section>
+  </main>
+  </footer>
+</body>
+</html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - C.Y.B.E.R's Watchlist</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Contact Us</h1>
+      <p>Have questions or suggestions? We'd love to hear from you!</p>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+ 
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recommendations - C.Y.B.E.R's Watchlist</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="recommendations.html">Recommendations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Top Recommendations</h1>
+      <p>Check out our must-watch movies:</p>
+      <ul>
+        <li><strong>The Dark Knight</strong>: A gripping superhero epic.</li>
+        <li><strong>Interstellar</strong>: A visually stunning sci-fi journey.</li>
+        <li><strong>Parasite</strong>: A thriller packed with social commentary.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 C.Y.B.E.R's Watchlist. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+document.getElementById("signup-form").addEventListener("submit", function (event) {
+  event.preventDefault();
+  const email = document.getElementById("email").value;
+  alert(`Thank you for subscribing or I would have found your home address, ${email}!`);
+});
+// Movie poster data
+const movies = [
+  "poster1.jpg", // Replace with actual image paths
+  "poster2.jpg",
+  "poster3.jpg",
+  "poster4.jpg",
+  "poster5.jpg",
+  "poster6.jpg",
+  "poster7.jpg",
+  "poster8.jpg",
+  "poster9.jpg",
+  "poster10.jpg",
+];
+
+// Create a grid of movie posters
+function createPosterGrid() {
+  const grid = document.createElement("div");
+  grid.classList.add("poster-grid");
+
+  movies.forEach((poster) => {
+    const img = document.createElement("img");
+    img.src = `images/${poster}`; // Ensure posters are in an "images" folder
+    img.alt = "Movie Poster";
+    img.classList.add("poster");
+    grid.appendChild(img);
+  });
+
+  document.body.prepend(grid); // Add the grid to the body before other content
+}
+
+// Call the function to create the poster grid
+createPosterGrid();
+
+// Add subscribe form functionality
+document.getElementById("signup-form").addEventListener("submit", function (event) {
+  event.preventDefault();
+  const email = document.getElementById("email").value;
+  alert(`Thank you for subscribing, ${email}! 🎉`);
+});
+// Movie poster data with links to details
+const movies = [
+  { 
+    poster: "https://example.com/poster1.jpg", // Replace with your image URL
+    link: "https://www.imdb.com/title/tt1234567/", // Replace with the movie's detail page
+    alt: "Movie Title 1"
+  },
+  {
+    poster: "https://example.com/poster2.jpg",
+    link: "https://www.imdb.com/title/tt2345678/",
+    alt: "Movie Title 2"
+  },
+  {
+    poster: "https://example.com/poster3.jpg",
+    link: "https://www.imdb.com/title/tt3456789/",
+    alt: "Movie Title 3"
+  },
+  // Add more movies as needed
+];
+
+// Create a grid of clickable movie posters
+function createPosterGrid() {
+  const grid = document.createElement("div");
+  grid.classList.add("poster-grid");
+
+  movies.forEach(({ poster, link, alt }) => {
+    const anchor = document.createElement("a");
+    anchor.href = link; // Set the link to movie details
+    anchor.target = "_blank"; // Open in a new tab
+    anchor.rel = "noopener noreferrer"; // Security best practice
+
+    const img = document.createElement("img");
+    img.src = poster;
+    img.alt = alt;
+    img.classList.add("poster");
+
+    anchor.appendChild(img); // Wrap image with the anchor tag
+    grid.appendChild(anchor);
+  });
+
+  document.body.prepend(grid); // Add the grid to the body before other content
+}
+
+// Call the function to create the poster grid
+createPosterGrid();
